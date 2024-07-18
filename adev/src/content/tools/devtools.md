@@ -145,7 +145,7 @@ Each tile in the graph represents an element on the screen at a specific positio
 For example, consider a change detection cycle where a `LoggedOutUserComponent` is removed and in its place Angular rendered a `LoggedInUserComponent`. In this scenario both components will be displayed in the same tile.
 
 The x-axis represents the full time it took to render this change detection cycle.
-The y-axis represents the element hierarchy. Running change detection for an element requires render its directives and child components.
+The y-axis represents the element hierarchy. Running change detection for an element requires rendering its directives and child components.
 Together, this graph visualizes which components are taking the longest time to render and where that time is going.
 
 Each tile is colored depending on how much time Angular spent there.
